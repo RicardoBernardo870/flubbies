@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  background-image: url(./assets/pexels-anni-roenkae-2860807.jpg);
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.btn-success {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add {
+  padding: 10px;
+  color: white;
+  border-radius: none;
+
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.flubbie {
+  color: white;
+
+  padding: 10px;
+}
+
+.whole {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.log {
+  padding: 10px;
+  border-radius: 20%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px white;
+  border: none;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.span1 {
+  display: none;
+}
+
+.titles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span2 {
+  display: inline-block;
+
+  margin-left: 10px;
+
+  color: purple !important;
+}
+.add1 {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px white;
+  border: none;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.user-profile img {
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px white;
+}
+
+.modal-close {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  font-weight: bold;
+}
+
+.form-group label {
+  color: white;
+  padding: 10px;
+}
+
+.text {
+  color: purple;
+  text-decoration: none !important;
+  padding: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+  outline: none !important;
+  border: none;
+  font-size: 19px;
+  box-shadow: none;
+  background-color: white;
+}
+
+.inlinebutton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(./assets/pexels-philippe-donn-1257860.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+}
+
+.form1 {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 300px;
+}
+
+.accor {
+  margin: 10px;
+  box-shadow: 0px 0px 5px white;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.modal {
+  position: absolute;
+}
+.head span {
+  margin-top: -5px;
+  color: gray;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.card-body {
+  height: auto;
+}
+
+.card-body ul {
+  list-style-type: none;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  word-wrap: normal;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.card-body span {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px purple;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  word-break: break-all;
+}
+
+.editing {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px lightskyblue;
+  border: none;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  word-break: break-all;
+  outline: lightskyblue;
+}
